@@ -83,6 +83,13 @@ Also, due to the fact that some letters in Persian are stuck together, we change
 
 Here are some examples of test images.
 
-(https://github.com/FatemehShamsi/CRAFT-Reimplementation/blob/master/image/114.jpg)
+![](https://github.com/FatemehShamsi/CRAFT-Reimplementation/blob/master/image/114.jpg)
+
+![](https://github.com/FatemehShamsi/CRAFT-Reimplementation/blob/master/image/res_114_mask_on_image.jpg)
+
+![](https://github.com/FatemehShamsi/CRAFT-Reimplementation/blob/master/image/156.jpg)
+
+![](https://github.com/FatemehShamsi/CRAFT-Reimplementation/blob/master/image/res_156_mask_on_image.jpg)
+
 
 
