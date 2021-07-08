@@ -83,3 +83,6 @@ Also, due to the fact that some letters in Persian are stuck together, we change
 
 Here are some examples of test images.
 
+(https://github.com/FatemehShamsi/CRAFT-Reimplementation/blob/master/image/114.jpg)
+
+
