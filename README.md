@@ -75,11 +75,14 @@ Syndata+IC15(new gaussian map method)         |ICDAR15      |80.36%      |84.25%
 ### Train for Persian data based on IC17
 We also trained the model for the Persian language.
 
-first creat Persian synthetic data sets accordance to the https://arxiv.org/pdf/1604.06646.pdf , then trained model.
+first we create Persian synthetic data sets accordance to the https://arxiv.org/pdf/1604.06646.pdf , then we trained the model with that.
 
-Due to the lack of Persian data set to train the model with real data, we produced our own personal data set, which includes 400 images for training and 100 images for testing. Then we trained the model with this data set.[Persian data set](https://drive.google.com/file/d/13aqZQWXsl2aL7mVRFvvGTBlYwl-VSe5n/view?usp=sharing)
+Due to the lack of Persian data sets to train the model with real data, we produced our own personal data set, which includes 400 images for training and 100 images for testing. Then we trained the model with this data set.[Persian data set](https://drive.google.com/file/d/13aqZQWXsl2aL7mVRFvvGTBlYwl-VSe5n/view?usp=sharing)
 
 Also, due to the fact that some letters in Persian are stuck together, we changed the following constants.
+- text_threshold=0.6.
+- low_text=0.5.
+- link_threshold=0.3.
 
 Here are some examples of test images.
 
