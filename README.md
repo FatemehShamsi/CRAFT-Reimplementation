@@ -1,5 +1,3 @@
-# CRAFT-Reimplementation
-# Note：If you have any problems, please comment. Or you can join us weChat group. The QR code will update in issues #49 .
 
 ## Reimplementation：Character Region Awareness for Text Detection Reimplementation based on Pytorch
 
@@ -73,27 +71,15 @@ Syndata+MLT(deteval)                          |ICDAR13      |86.81%      |95.28%
 Syndata+MLT(deteval)(new gaussian map method) |ICDAR13      |90.67%      |94.56%         |92.57%                                   
 Syndata+IC15(new gaussian map method)         |ICDAR15      |80.36%      |84.25%         |82.26%
 
-### We have released the latest code with new gaussian map and random crop algorithm. 
-**`Note:new gaussian map method can split the inference gaussian region score map`**                                                                                                                         
-`Sample:`                                                                                           
-<img src="https://github.com/backtime92/CRAFT-Reimplementation/blob/master/image/test3_score.jpg" width="384" height="512" /><img src="https://github.com/backtime92/CRAFT-Reimplementation/blob/master/image/test3_affinity.jpg" width="384" height="256" />                                                                                                                                                      
 
-**`Note:We have solved the problem about detecting big word. Now we are training the model. And any issues or advice are welcome.`**                                                                  
-                                                                                                                                                 
-`Sample:`
-<img src="https://github.com/backtime92/CRAFT-Reimplementation/blob/master/image/test4_score.jpg" width="384" height="512" /><img src="https://github.com/backtime92/CRAFT-Reimplementation/blob/master/image/test4_affinity.jpg" width="384" height="256" />                                                                                                                                    
+### Train for Persian data based on IC17
+We also trained the model for the Persian language.
 
-###weChat QR code
-<img src="https://github.com/backtime92/CRAFT-Reimplementation/blob/master/image/wechatgroup.jpeg" width="150" height="150" />                                                           
+first creat Persian synthetic data sets accordance to the https://arxiv.org/pdf/1604.06646.pdf , then trained model.
 
+Due to the lack of Persian data set to train the model with real data, we produced our own personal data set, which includes 400 images for training and 100 images for testing. Then we trained the model with this data set.[Persian data set](https://drive.google.com/file/d/13aqZQWXsl2aL7mVRFvvGTBlYwl-VSe5n/view?usp=sharing)
 
-# Contributing to the project
-`We will release training code as soon as possible， and we have not yet reached the results given in the author's paper. Any pull requests or issues are welcome. We also hope that you could give us some advice for the project.`
+Also, due to the fact that some letters in Persian are stuck together, we changed the following constants.
 
-# Acknowledgement
-Thanks for Youngmin Baek, Bado Lee, Dongyoon Han, Sangdoo Yun, Hwalsuk Lee excellent work and [code](https://github.com/clovaai/CRAFT-pytorch) for test. In this repo, we use the author repo's basenet and test code.
-
-# License
-For commercial use, please contact us.
-
+Here are some examples of test images.
 
