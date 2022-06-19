@@ -47,5 +47,8 @@ Here are some examples of test images.
 
 ![](https://github.com/FatemehShamsi/CRAFT-Reimplementation/blob/master/image/res_156_mask_on_image.jpg)
 
+![](https://github.com/FatemehShamsi/CRAFT-Reimplementation/blob/master/image/animzoom830.gif)
+
+
 
 
